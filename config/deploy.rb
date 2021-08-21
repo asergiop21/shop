@@ -2,8 +2,7 @@
 lock "~> 3.10.0"
 
 set :application, "shop"
-set :repo_url, "git@github.com:asergiop21/shop.git"
-set :rbenv_type, :user
+set :repo_url, "git://github.com/asergiop21/shop.git"
 set :rbenv_ruby, '2.7.3'
 
 # Default branch is :master
@@ -26,7 +25,7 @@ set :rbenv_ruby, '2.7.3'
 # append :linked_files, "config/database.yml"
 
 # Default value for linked_dirs is []
-append :linked_dirs, %w{log tmp/pids tmp/cache tmp/sockets public/system}
+#append :linked_dirs, %w{log tmp/pids tmp/cache tmp/sockets public/system}
 
 # Default value for default_env is {}
 # set :default_env, { path: "/opt/ruby/bin:$PATH" }
